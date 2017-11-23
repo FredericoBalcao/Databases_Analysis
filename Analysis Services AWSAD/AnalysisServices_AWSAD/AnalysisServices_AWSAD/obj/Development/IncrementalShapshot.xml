@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AnalysisServices_AWSAD</Database>
+    <Server>TOSHIBA\SQLEXPRESS</Server>
+    <ConnectionString>DataSource=TOSHIBA\SQLEXPRESS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>dVSIVafhhYrRbiantIW1hSoZGZ4=10/06/2016 20:14:3110/06/2016 20:14:30</TimeStamp>
+        <ID>
+          <String>DS_AWSAD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>rpOpirDMdEgZyqXYRR9QdiAkRq0=10/06/2016 20:14:5810/06/2016 20:14:56</TimeStamp>
+        <ID>
+          <String>DSV_AWSAD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8GI+WEp5D2c1auzN6biHkyVYZDM=10/06/2016 20:20:1910/06/2016 20:18:31</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JXdaKA5atnsWfJXQU6mir5x/Qbs=10/06/2016 20:28:3010/06/2016 20:18:31</TimeStamp>
+        <ID>
+          <String>Dim Produto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vk8OKKOaHduTZ5LJIJHDIu1dPdQ=10/06/2016 20:20:1910/06/2016 20:18:51</TimeStamp>
+        <ID>
+          <String>Dim Rejeicao</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z1qZ5U+qKYyUrZnqVnMq8qQj/pQ=10/06/2016 20:20:1810/06/2016 20:19:09</TimeStamp>
+        <ID>
+          <String>Dim Fornecedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pB9C5xzNRiUikCkFEGX4V0IdeAI=10/06/2016 21:29:1910/06/2016 21:29:15</TimeStamp>
+        <ID>
+          <String>Dim Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3iaUJT/XtZiR+cSfapxtYGBylmo=27/06/2016 10:36:5110/06/2016 20:18:31kn7xOpKI0+MsYIGIyj+g5GJAdmA=10/06/2016 20:18:3110/06/2016 20:18:31</TimeStamp>
+        <ID>
+          <String>AWSAD_Cubo_Vendas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>zgVlG2R8MAPJa6XbOiPcR7A6VNs=10/06/2016 21:50:1510/06/2016 20:18:51UVaggB6J3BtkjCnyJt9hy8FBdLY=10/06/2016 20:18:5110/06/2016 20:18:51</TimeStamp>
+        <ID>
+          <String>AWSAD_Cubo_Producao</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VvsXyqXLm55i8zjA6Eo+pf5bdA8=11/06/2016 01:28:2810/06/2016 20:19:09BjihqhZYizrpW6gMTbnwo6gfR00=10/06/2016 20:19:0910/06/2016 20:19:09</TimeStamp>
+        <ID>
+          <String>AWSAD_Cubo_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>3B/grij+jAvAlslz9oLW01L6nV8=06/06/2016 16:37:4606/06/2016 16:37:46</TimeStamp>
+      <ID>
+        <String>AnalysisServices_AWSAD</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-06-27T09:37:03.403333Z</LastDeployed>
+</DeploymentSnapshot>
